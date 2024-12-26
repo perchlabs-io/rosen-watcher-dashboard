@@ -14,7 +14,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
-		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/kit": "^0.0.30",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
@@ -25,5 +25,8 @@
 		"vite": "^5.0.3",
 		"vitest": "^1.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@ergolabs/ergo-sdk": "^0.5.7"
+	}
 }
